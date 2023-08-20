@@ -1,0 +1,49 @@
+
+*{
+    margin: 0;
+}.side-bar{
+    height: 100%;
+    width: 260px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:black;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.logo-img{
+    width:160px;
+    height: 80px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.logo{
+    /* background-color: yellow; */
+    margin-bottom: 0px;
+}
+.side-bar-text{
+    margin-left: 20px ;
+    /* background-color: yellow; */
+}
+
+.home{
+    width: 200px;
+    /* border: 2px solid lightgray; */
+    border-radius: 10px;
+    z-index: 1;
+    display: flex;
+    margin-bottom: 15px;
+}
+.home-icon{
+    width: 25px;
+    height: 25px;
+    padding: 8px;
+}
+.home-text{
+    font-weight: bold;
+    margin-left: 15px;
+    padding: 10px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
